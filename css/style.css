@@ -22,14 +22,20 @@ blockquote:before,blockquote:after,q:before,q:after {
   content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}h1,h2,h3,h4,h5,h6 {
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  color: #222222;
-}a,a:hover,a:focus,a:active {
-  outline: none;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+h1, h2, h3, h4, h5, h6
+{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	color: #222222;
+}
+.title{
+    color: white;
+}
+a, a:hover, a:focus, a:active{
+    outline: none;
 }
 
 .section-padding {
@@ -67,8 +73,8 @@ banner
   transition: all 0.3s;
 }
 .navbar-default {
-  background-color: transparent;
-  border: 0px;
+    background-color: rgba(28,74,90, 0.9);
+    border: 0px;
 }
 .navbar {
   border-radius: 0px;
@@ -80,8 +86,8 @@ banner
 }
 
 .navbar-brand img {
-  padding-top: 2px;
-  width: 120px !important;
+    padding-top: 2px;
+    width: 50px !important;
 }
 
 .navbar-default .navbar-brand,
@@ -468,8 +474,8 @@ footer
   text-align: center;
   margin-right: 5px;
 }
-.bglight-blue {
-  background-color: #3498db;
+.bglight-green {
+    background-color: #46e423;
 }
 .bgred {
   background-color: #e74c3c;
