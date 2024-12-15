@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5, h6
 	font-weight: 600;
 	color: #222222;
 }
+.title{
+    color: white;
+}
 a, a:hover, a:focus, a:active{
     outline: none;
 }
@@ -73,7 +76,7 @@ banner
     transition: all 0.3s;
 }
 .navbar-default {
-    background-color: transparent;
+    background-color: rgba(28,74,90, 0.9);
     border: 0px;
 }
 .navbar {
@@ -88,7 +91,7 @@ banner
 
 .navbar-brand img {
     padding-top: 2px;
-    width: 120px !important;
+    width: 50px !important;
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
@@ -456,8 +459,8 @@ footer
     text-align: center;
     margin-right: 5px;
 }
-.bglight-blue {
-    background-color: #3498DB;
+.bglight-green {
+    background-color: #46e423;
 }
 .bgred {
     background-color: #E74C3C;
