@@ -57,6 +57,7 @@ hr.botm-line {
   margin: 20px 0 20px 0;
 }
 
+
 /***************************************
 banner
 ***************************************/
@@ -73,7 +74,7 @@ banner
   transition: all 0.3s;
 }
 .navbar-default {
-    background-color: rgba(28,74,90, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     border: 0px;
 }
 .navbar {
@@ -120,19 +121,16 @@ banner
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   color: #fff;
-  text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.21);
 }
 .navbar-default .navbar-nav > li > a {
   color: #fff;
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 300;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
   color: #fff;
-  text-transform: uppercase;
   background-color: rgba(255, 255, 255, 0.21);
 }
 .affix {
@@ -451,7 +449,7 @@ contact us
 footer
 ***************************************/
 #footer {
-  background-color: #325c6a;
+  background-color: #000000e0;
 }
 .ftr-tle {
   height: 50px;
@@ -545,4 +543,5 @@ footer
   .banner-text h1 {
     font-size: 24px;
   }
+  
 }
