@@ -12,7 +12,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
 // Cek apakah user sudah login
 if (isset($_SESSION['loggedIn'])) {
-    header('Location: admin/gejala.php');
+    header('Location: gejala/gejala.php');
     exit();
 }
 
@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
             $_SESSION['loggedIn'] = true;
             $_SESSION['username'] = $username;
             $_SESSION['id'] = $fetch->id_admin;
-            header('Location: admin/gejala.php');
+            header('Location: gejala/gejala.php');
             exit();
         } else {
             $_SESSION['message'] = 'Username atau password salah';
@@ -78,7 +78,7 @@ if (isset($_POST['submit'])) {
                 <div class="validation"></div>
               </div>
               <div class="form-action">
-                <button type="submit" name="submit" class="btn btn-form">Login</button>
+                <button type="submit" name="submit" class="btn btn-success">Login</button>
               </div>
             </form>
           </div>

@@ -25,7 +25,7 @@ $gejala = $koneksi->query('SELECT * FROM gejala')->fetchAll(PDO::FETCH_OBJ);
             </div>
             <div class="">
               <hr class="botm-line">
-              <button type="submit" name="submit" class="btn btn-form">Diagnosa</button>
+              <button type="submit" name="submit" class="btn btn-success">Diagnosa</button>
             </div>
           </form>
         </div>
