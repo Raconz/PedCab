@@ -1,23 +1,23 @@
-<?php include("partial/header.php"); ?>
+<?php include("../partial/headerA.php"); ?>
 <!--service-->
 <section id="service" class="section-padding">
-    <?php include("partial/navAdmin.php"); ?>
+    <?php include("../partial/navAdmin.php"); ?>
     
     <div class="container" style="margin-top: 50px;">
-        <h2 class="ser-title">Daftar Gejala</h2>
-        <button class="btn btn-primary mb-5" onclick="tambahGejala()" style="margin-top: 20px;">Tambahkan Gejala</button>
+        <h2 class="ser-title">Daftar Penyakit</h2>
+        <button class="btn btn-primary mb-5" onclick="tambahGejala()" style="margin-top: 20px;">Tambahkan Penyakit</button>
         
         <table class="table table-bordered">
             <thead>
                 <tr>
-                    <th>Nama Gejala</th>
+                    <th>Nama Penyakit</th>
                     <th>Kode</th>
                     <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Gejala 1</td>
+                    <td>Penyakit 1</td>
                     <td>G001</td>
                     <td>
                         <button class="btn btn-success" onclick="editGejala('G001', 'Gejala 1')">Edit</button>
@@ -25,7 +25,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>Gejala 2</td>
+                    <td>Penyakit 2</td>
                     <td>G002</td>
                     <td>
                         <button class="btn btn-success" onclick="editGejala('G002', 'Gejala 2')">Edit</button>
@@ -44,7 +44,7 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editGejalaModalLabel">Edit Gejala</h5>
+                <h5 class="modal-title" id="editGejalaModalLabel">Edit Penyakit</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -52,7 +52,7 @@
             <div class="modal-body">
                 <form id="editGejalaForm">
                     <div class="form-group">
-                        <label for="gejalaName">Nama Gejala</label>
+                        <label for="gejalaName">Nama Penyakit</label>
                         <input type="text" class="form-control" id="gejalaName" required>
                     </div>
                     <div class="form-group">
@@ -69,4 +69,4 @@
     </div>
 </div>
 
-<?php include("partial/footerA.php"); ?>
+<?php include("../partial/footerA.php"); ?>
