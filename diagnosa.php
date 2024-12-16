@@ -1,53 +1,33 @@
-<?php include("partial/header.php");?>
+<?php include("partial/header.php");
+
+$gejala = $koneksi->query('SELECT * FROM gejala')->fetchAll(PDO::FETCH_OBJ); 
+
+?>
   <!--service-->
   <section id="service" class="section-padding">
   <?php include("partial/navUser.php");?>
     <div class="container" style="margin-top: 50px;">
       <div class="row">
-        <div class="col-md-4 col-sm-4">
-          <h2 class="ser-title">Our Service</h2>
+        <div class="col-md-12 col-sm-12">
+          <h2 class="ser-title">Diagnosa</h2>
           <hr class="botm-line">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris cillum.</p>
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="service-info">
-            <div class="icon">
-              <i class="fa fa-stethoscope"></i>
+          <form action="hasil.php" class="" method="POST">
+            <div class="">
+              <?php $i=1; foreach($gejala as $g): ?>
+                <div class="">
+                  <label><?= $i++ ?>. </label>
+                  <input class="" type="checkbox" name="gejala[]" value="<?= $g->kode_gejala ?>" id="checkbox<?= $g->kode_gejala ?>">
+                  <label class="" for="checkbox<?= $g->kode_gejala ?>">
+                    <?= $g->nama_gejala ?>
+                  </label>
+                </div>
+              <?php endforeach; ?>
             </div>
-            <div class="icon-info">
-              <h4>24 Hour Support</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="">
+              <hr class="botm-line">
+              <button type="submit" name="submit" class="btn btn-form">Diagnosa</button>
             </div>
-          </div>
-          <div class="service-info">
-            <div class="icon">
-              <i class="fa fa-ambulance"></i>
-            </div>
-            <div class="icon-info">
-              <h4>Emergency Services</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="service-info">
-            <div class="icon">
-              <i class="fa fa-user-md"></i>
-            </div>
-            <div class="icon-info">
-              <h4>Medical Counseling</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
-          <div class="service-info">
-            <div class="icon">
-              <i class="fa fa-medkit"></i>
-            </div>
-            <div class="icon-info">
-              <h4>Premium Healthcare</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
