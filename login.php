@@ -78,7 +78,7 @@ if (isset($_POST['submit'])) {
                 <div class="validation"></div>
               </div>
               <div class="form-action">
-                <button type="submit" name="submit" class="btn btn-form">Login</button>
+                <button type="submit" name="submit" class="btn btn-success">Login</button>
               </div>
             </form>
           </div>

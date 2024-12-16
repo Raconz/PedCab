@@ -133,7 +133,7 @@ $gej = $koneksi->query('SELECT id_gejala, kode_gejala, belief FROM gejala')->fet
     }
     ?>
     <hr class="botm-line">
-    <a class="btn btn-form" href="/diagnosa.php">Kembali ke Diagnosa.</a>
+    <a class="btn btn-success" href="/diagnosa.php">Kembali ke Diagnosa.</a>
 </div>
 </section>
 <!--/ hasil-->

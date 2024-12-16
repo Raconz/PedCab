@@ -9,8 +9,8 @@
             </div>
             <div class="info-sec">
               <ul class="social-icon">
-                <li class="bglight-green"><i class="fa fa-whatsapp"></i></li>
-                <li class="bgred"><i class="fa fa-google-plus"></i></li>
+                <li class="bglight-green"><a href="https://wa.me/082246505539" target=”_blank”><i class="fa fa-whatsapp"></a></i></li>
+                <li class="bgred"><a href="mailto:ahmat.0411200@gmail.com" target=”_blank”><i class="fa fa-google-plus"></a></i></li>
               </ul>
             </div>
           </div>

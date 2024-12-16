@@ -14,6 +14,7 @@
                 <li ><a href="../gejala/gejala.php" class="me-2">Gejala</a></li>
                 <li ><a href="../penyakit/penyakit.php" class="me-2">Penyakit</a></li>
                 <li ><a href="../relasi/relasi.php" class="me-2">Relasi</a></li>
+                <li ><a href="../akun/editAkun.php" class="me-2">Akun</a></li>
                 <li ><a href="../keluar.php" class="me-2">Log Out</a></li>
               </ul>
             </div>
