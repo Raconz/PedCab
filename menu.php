@@ -7,7 +7,7 @@
             <div class="banner-text text-center">
               <h1 class="white">Selamat Datang Di Peduli Cabai!</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>tempor incididunt ut labore et dolore magna aliqua.</p>
-              <a href="#service" class="btn btn-appoint">Mulai Diagnosa.</a>
+              <a class="btn btn-appoint" href="/diagnosa.php">Mulai Diagnosa.</a>
             </div>
           </div>
         </div>

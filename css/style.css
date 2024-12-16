@@ -167,8 +167,9 @@ banner
   display: inline-block; /* Membuat elemen inline-block */
   padding: 10px 20px; /* Jarak dalam tombol */
   color: rgb(255, 255, 255); /* Warna teks awal */
-  border: 2px solid green; /* Border hijau */
-  border-radius: 25px; /* Membuat sudut bulat */
+  background-color:  rgb(46, 123, 59);
+  /*border: 2px solid green; Border hijau */
+  border-radius: 10px; /* Membuat sudut bulat */
   text-decoration: none; /* Menghilangkan garis bawah */
   transition: background-color 0.3s, color 0.3s; /* Transisi halus */
   font-size: 16px; /* Ukuran font */
@@ -176,7 +177,7 @@ banner
 }
 
 .btn-appoint:hover {
-  background-color: green; /* Warna latar belakang saat hover */
+  background-color: rgb(0, 128, 21); /* Warna latar belakang saat hover */
   color: rgb(255, 255, 255); /* Warna teks saat hover */
 }
 
@@ -544,4 +545,24 @@ footer
     font-size: 24px;
   }
   
+}
+/*form*/
+.form_glass {
+  background: rgba( 89, 103, 176, 0.1 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 7px );
+  border-radius: 10px;
+  padding: 7px 20px;
+}
+.diagnosa-form {
+  height: 280px !important;
+  overflow-y: scroll;
+}
+
+.alert_custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 5px;
 }
