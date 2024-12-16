@@ -21,9 +21,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            © Copyright Medilab Theme. All Rights Reserved
+          <p>© Copyright Peduli Cabai. All Rights Reserved</p>
             <div class="credits">
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+                Designed by <a href="#" style="color: #0cb8b6;">BabangTamvvan</a>
             </div>
           </div>
         </div>
